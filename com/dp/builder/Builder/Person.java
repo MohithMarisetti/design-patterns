@@ -1,9 +1,19 @@
 package com.dp.builder.Builder;
-
+/*
+    https://medium.com/@mohithmarisetti_58912/the-mighty-builder-pattern-in-object-oriented-programming-cbd480675487
+*/
 public class Person {
 
     private String firstName, lastName, employer;
     private Integer age, salary;
+
+    public Person(String firstName, String lastName, String employer, Integer salary, Integer age) {
+        this.firstName = firstName;
+        this.lastName = lastName;
+        this.employer = employer;
+        this.salary = salary;
+        this.age = age;
+    }
 
     // Builder
     public static PersonBuilder builder() {
@@ -61,6 +71,10 @@ public class Person {
     public void setSalary(Integer salary) {
         this.salary = salary;
     }
+
+    // Constructor
+    public Person() {}
+
 
     /* Person Builder class */
     public static class PersonBuilder {
