@@ -22,15 +22,10 @@
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
 /.idea/.gitignore
-/out/production/design-patterns/design-patterns.iml
-/out/production/design-patterns/.idea/modules.xml
-/out/production/design-patterns/.idea/misc.xml
-/out/production/design-patterns/.idea/vcs.xml
+/out/*
 /.idea/modules.xml
-/out/production/design-patterns/.idea/.gitignore
 /design-patterns.iml
 /.idea/runConfigurations.xml
 /out/production/design-patterns/.gitignore
 /.idea/misc.xml
 /.idea/vcs.xml
-/out/production/design-patterns/.idea/runConfigurations.xml
